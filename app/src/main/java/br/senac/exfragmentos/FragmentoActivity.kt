@@ -13,7 +13,7 @@ class FragmentoActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityFragmentoBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
+        //teste
         binding.btnAlbum.setOnClickListener {
             supportFragmentManager.beginTransaction()
                 .replace(R.id.ctnAlbum, AlbumFragment()).commit()
